@@ -105,8 +105,7 @@ nav a:hover,
 
 .header-action,
 .primary-button,
-.secondary-button,
-#searchButton {
+.secondary-button {
   border-radius: 6px;
   font-weight: 800;
   line-height: 1;
@@ -276,7 +275,7 @@ h3 {
 }
 
 .section-grid,
-.finder-section,
+.negotiation-section,
 .model-section,
 .profile-section,
 .proof-section,
@@ -303,7 +302,6 @@ h3 {
 
 .service-grid article,
 .proof-grid div,
-.finder-card,
 .contact-card {
   background: var(--white);
   border: 1px solid var(--line);
@@ -326,81 +324,28 @@ h3 {
   color: var(--muted);
 }
 
-.finder-section {
+.negotiation-section {
+  align-items: center;
   background: var(--muted-paper);
   display: grid;
   grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
   gap: clamp(30px, 5vw, 70px);
 }
 
-.finder-copy p {
+.negotiation-copy p {
   max-width: 560px;
 }
 
-.finder-card label {
-  color: var(--green);
+.negotiation-image {
+  margin: 0;
+}
+
+.negotiation-image img {
+  aspect-ratio: 3 / 2;
+  border-radius: 6px;
   display: block;
-  font-weight: 900;
-  margin-bottom: 12px;
-}
-
-.finder-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 190px 150px;
-  gap: 10px;
-}
-
-input,
-select,
-button {
-  font: inherit;
-}
-
-input,
-select {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  min-height: 52px;
-  padding: 0 14px;
+  object-fit: cover;
   width: 100%;
-}
-
-#searchButton {
-  background: var(--green);
-  border: 0;
-  color: var(--white);
-  cursor: pointer;
-  min-height: 52px;
-}
-
-.finder-output {
-  border-top: 1px solid var(--line);
-  margin-top: 24px;
-  padding-top: 22px;
-}
-
-.finder-output ul {
-  color: var(--muted);
-  margin: 12px 0 0;
-  padding-left: 18px;
-}
-
-.finder-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 18px;
-}
-
-.finder-links a {
-  background: var(--muted-paper);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  color: var(--green);
-  font-size: 14px;
-  font-weight: 800;
-  padding: 10px 12px;
 }
 
 .model-section {
@@ -589,7 +534,7 @@ select {
 
   .hero,
   .section-grid,
-  .finder-section,
+  .negotiation-section,
   .model-section,
   .profile-section,
   .proof-section,
@@ -606,10 +551,6 @@ select {
   .proof-grid,
   .process {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .finder-row {
-    grid-template-columns: 1fr;
   }
 
   h1 {
