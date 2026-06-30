@@ -1,6 +1,6 @@
-# The Achiever's Hub Nigeria Limited Landing Page
+# The Achievers Hub Landing Page
 
-Static landing page for The Achiever's Hub Nigeria Limited.
+Static landing page for The Achievers Hub.
 
 ## Files
 
