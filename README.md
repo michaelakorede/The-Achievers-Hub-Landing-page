@@ -1,6 +1,6 @@
-# The Achievers Hub Landing Page
+# Achievers Hub Global Limited Landing Page
 
-Static landing page for The Achievers Hub.
+Static landing page for Achievers Hub Global Limited.
 
 ## Files
 

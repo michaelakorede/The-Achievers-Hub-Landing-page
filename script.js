@@ -69,7 +69,7 @@ function buildFinderResult() {
       <li>Compare at least three suppliers by price, lead time, documentation, and communication quality.</li>
       <li>Ask for photos, certifications where needed, payment terms, delivery terms, and warranty conditions.</li>
       <li>Check freight, customs, destination charges, and after-delivery support before ordering.</li>
-      <li>Use The Achievers Hub to coordinate research, supplier comparison, and procurement planning.</li>
+      <li>Use Achievers Hub Global Limited to coordinate research, supplier comparison, and procurement planning.</li>
     </ul>
     <div class="finder-links">${links}</div>
   `;
